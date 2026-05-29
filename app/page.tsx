@@ -5,7 +5,8 @@ import Image from "next/image";
 import { solutions } from "../data/solutions";
 
 export default function Home() {
-const unlockTime = new Date(Date.now() - 1000);
+const unlockTime = new Date();
+unlockTime.setHours(19, 0, 0); // Set to 7:00 PM
   
 
   const [unlocked, setUnlocked] = useState(false);
