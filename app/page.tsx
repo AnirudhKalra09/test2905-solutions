@@ -105,13 +105,7 @@ unlockTime.setHours(19, 0, 0); // Set to 7:00 PM
               </div>
             </div>
 
-            {item.question && (
-              <div className="mb-4">
-                <p className="font-semibold text-lg">
-                  {item.question}
-                </p>
-              </div>
-            )}
+
 
             {item.image && (
               <Image
